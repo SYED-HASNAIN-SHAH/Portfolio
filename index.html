@@ -2,84 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume - Syed Hasnain Shah</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>SYED HASNAIN SHAH</h1>
-        <h2>Computer System Engineering Student</h2>
-        <p>Email: syed.hasnainshah007@gmail.com</p>
-        <p>Location: Peshawar, Pakistan</p>
-    </header>
+<div class="container my-5">
 
-    <section>
-        <h2>Profile</h2>
-        <p>
-            Computer System Engineering student currently in the 6th semester at UETP (2023–2027),
-            with a foundation in cybersecurity, networking, and blockchain development.
-            Hands-on experience with tools like Nmap, Metasploit, and OWASP ZAP.
-            Skilled in C/C++, HTML, CSS, and Linux shell scripting.
-            Completed multiple certifications in cybersecurity, penetration testing,
-            and smart contract development.
-        </p>
-    </section>
+    <!-- Header -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">SYED HASNAIN SHAH</h1>
+        <h4 class="text-primary">Computer System Engineering Student</h4>
+        <p class="mb-0">📧 syed.hasnainshah007@gmail.com</p>
+        <p>📍 Peshawar, Pakistan</p>
+    </div>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>C / C++</li>
-            <li>Networking (CCNA-ITN)</li>
-            <li>Nmap, Metasploit, OWASP ZAP</li>
-            <li>OWASP Top 10</li>
-            <li>Troubleshooting</li>
-            <li>HTML, CSS</li>
-            <li>Linux & Shell Scripting</li>
-            <li>DApp Deployment on Tron Blockchain</li>
-            <li>Assembly Language</li>
-        </ul>
-    </section>
+    <div class="row">
 
-    <section>
-        <h2>Education</h2>
+        <!-- Left Column -->
+        <div class="col-md-4">
 
-        <h3>BSc Computer System Engineering</h3>
-        <p>UET Peshawar</p>
-        <p>2023 – 2027 (6th Semester)</p>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="section-title">Skills</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">C / C++</li>
+                        <li class="list-group-item">Networking (CCNA-ITN)</li>
+                        <li class="list-group-item">Nmap, Metasploit, OWASP ZAP</li>
+                        <li class="list-group-item">OWASP Top 10</li>
+                        <li class="list-group-item">HTML, CSS</li>
+                        <li class="list-group-item">Linux & Shell Scripting</li>
+                        <li class="list-group-item">Tron DApp Deployment</li>
+                        <li class="list-group-item">Assembly Language</li>
+                    </ul>
+                </div>
+            </div>
 
-        <h3>FSc</h3>
-        <p>Edwardes College Peshawar</p>
-        <p>2021 – 2023</p>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="section-title">Certifications</h5>
+                    <ul>
+                        <li>Foundations of Cybersecurity</li>
+                        <li>Linux Commands & Shell Scripting</li>
+                        <li>Metasploit for Beginners</li>
+                        <li>Nmap Network Scanning</li>
+                        <li>OWASP ZAP Testing</li>
+                        <li>Solidity Smart Contracts</li>
+                    </ul>
+                </div>
+            </div>
 
-        <h3>Matriculation</h3>
-        <p>NCS School System Peshawar</p>
-        <p>2021</p>
-    </section>
+        </div>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li>Building Website using HTML & CSS</li>
-            <li>Building DApp on Tron Blockchain using React & Solidity</li>
-            <li>Digital Logic Design Soccer Robot</li>
-            <li>System Monitor with Email Alerts in C</li>
-            <li>File Splitter & Merger Tool in C</li>
-            <li>Calculator Backend in Assembly Language with Python Frontend</li>
-        </ul>
-    </section>
+        <!-- Right Column -->
+        <div class="col-md-8">
 
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>Foundations of Cybersecurity</li>
-            <li>Hands-on Introduction to Linux Commands and Shell Scripting</li>
-            <li>Metasploit for Beginners: Ethical Penetration Testing</li>
-            <li>Vulnerability Scanning with Nmap: Network Scanning</li>
-            <li>Web Application Security Testing with OWASP ZAP</li>
-            <li>Solidity for Beginners: Write and Test Smart Contracts</li>
-            <li>Foundations and Reconnaissance Techniques</li>
-        </ul>
-    </section>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="section-title">Profile</h5>
+                    <p>
+                        Computer System Engineering student currently in the 6th semester at UETP (2023–2027),
+                        with a strong foundation in cybersecurity, networking, and blockchain development.
+                        Hands-on experience with Nmap, Metasploit, and OWASP ZAP.
+                        Skilled in C/C++, HTML, CSS, and Linux shell scripting.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="section-title">Education</h5>
+
+                    <h6 class="fw-bold">BSc Computer System Engineering</h6>
+                    <p>UET Peshawar (2023 – 2027)</p>
+
+                    <h6 class="fw-bold">FSc</h6>
+                    <p>Edwardes College Peshawar (2021 – 2023)</p>
+
+                    <h6 class="fw-bold">Matriculation</h6>
+                    <p>NCS School System Peshawar (2021)</p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="section-title">Projects</h5>
+                    <ul>
+                        <li>Website using HTML & CSS</li>
+                        <li>DApp on Tron Blockchain (React & Solidity)</li>
+                        <li>Digital Logic Design Soccer Robot</li>
+                        <li>System Monitor with Email Alerts in C</li>
+                        <li>File Splitter & Merger Tool in C</li>
+                        <li>Assembly Calculator with Python Frontend</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
